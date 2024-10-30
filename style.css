@@ -80,9 +80,6 @@ span{
 .testimonial-3 span{
     color: hsl(219, 29%, 14%);
 }
-/*.top-review-3{
-    color: hsl(0, 0%, 100%);
-}*/
 .testimonial-4{
     grid-area: 2/2/3/4;
     background-color: hsl(219, 29%, 14%);
@@ -100,9 +97,6 @@ span{
 .testimonial-5 span{
     color: hsl(219, 29%, 14%);
 }
-/*.top-review-5{
-    color: hsl(0, 0%, 100%);
-}*/
 .top-review{
     font-size: 0.85rem;
     font-weight: 800;
@@ -163,5 +157,48 @@ span{
     }
     .attribution{
         display: none;
+    }
+}
+@media(max-width:1440px){
+    .container{
+        width: 85%;
+    }
+    body{
+        font-size: 0.9rem;
+    }
+    span{
+        font-size: 0.9rem;
+    }
+    .span-mini{
+        font-size: 0.75rem;
+    }
+    .top-review{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .review{
+        line-height: 1.25rem;
+    }
+}
+@media(max-width:1920px){
+    .container{
+        width: 75%;
+    }
+    body{
+        font-size: 0.9rem;
+    }
+    span{
+        font-size: 0.9rem;
+    }
+    .span-mini{
+        font-size: 0.75rem;
+    }
+    .top-review{
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.2rem;
+    }
+    .review{
+        line-height: 1.7rem;
     }
 }
